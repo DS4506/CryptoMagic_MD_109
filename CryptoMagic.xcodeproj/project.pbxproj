@@ -6,13 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		47A18CA72E8241B300E93C51 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47A18CA52E8241B300E93C51 /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		47A18C8B2E823FA500E93C51 /* CryptoMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A18CA62E8241B300E93C51 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		47A18CB32E82448500E93C51 /* Exceptions for "CryptoMagic" folder in "CryptoMagic" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Networking/APIClient.swift,
+			);
+			target = 47A18C8A2E823FA500E93C51 /* CryptoMagic */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		47A18CB42E82448500E93C51 /* Exceptions for "CryptoMagic" folder in "Copy Bundle Resources" phase from "CryptoMagic" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 47A18C892E823FA500E93C51 /* Resources */;
+			membershipExceptions = (
+				Networking/APIClient.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		47A18C8D2E823FA500E93C51 /* CryptoMagic */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				47A18CB32E82448500E93C51 /* Exceptions for "CryptoMagic" folder in "CryptoMagic" target */,
+				47A18CB42E82448500E93C51 /* Exceptions for "CryptoMagic" folder in "Copy Bundle Resources" phase from "CryptoMagic" target */,
+			);
 			path = CryptoMagic;
 			sourceTree = "<group>";
 		};
@@ -32,6 +61,7 @@
 		47A18C822E823FA500E93C51 = {
 			isa = PBXGroup;
 			children = (
+				47A18CA52E8241B300E93C51 /* Model.xcdatamodeld */,
 				47A18C8D2E823FA500E93C51 /* CryptoMagic */,
 				47A18C8C2E823FA500E93C51 /* Products */,
 			);
@@ -119,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A18CA72E8241B300E93C51 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +351,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47A18CA52E8241B300E93C51 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47A18CA62E8241B300E93C51 /* Model.xcdatamodel */,
+			);
+			currentVersion = 47A18CA62E8241B300E93C51 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 47A18C832E823FA500E93C51 /* Project object */;
 }
